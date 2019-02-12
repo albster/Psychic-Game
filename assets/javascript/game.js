@@ -40,15 +40,17 @@ var computerChoices = ["a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l
 			
 
 			var html = 
-			"<h2> The Psychic Game </h2>" +
-			"<p>Ha!" + " You'll never guess what letter I'm thinking of!" +
+			
+			
 			"<p>Wins: " + wins + "</p>" +
 			"<p>Losses: " + losses + "</p>" +
 			"<p>Guesses Left: " + numGuesses + "</p>" +
-			"<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>";
+			"<p>Your Guesses so far: " + guessChoices.join(", ") + "</p>"
+			"<h2> + The Psychic Game" + "</h2>" ;
 
 			document.querySelector("#game").innerHTML = html;
 
+			
 			
 			}
 

@@ -1,12 +1,32 @@
 body {
     background-image: url(..//images/Zoltar.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    
     background-attachment: fixed;
+    background-size: cover;
+  
 }
 
 #game {
-    background: yellow;
+background: yellow;
     width: 25%;
+    float: left;
+   
 }
     
+h2 {
+    color: red;
+    text-align: center;
+    
+}
+
+
+p {
+    text-align: center;
+}
+
+body > audio:nth-child(3) {
+    position: left;
+    
+}
+
