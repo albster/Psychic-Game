@@ -2,9 +2,16 @@ body {
     background-image: url(..//images/Zoltar.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size: contain;
+    background-size: cover;
+    background-position: top;
 
   
+}
+
+div.jumbotron {
+    background-color: red;
+    height: 
+
 }
 
 #game {
@@ -17,7 +24,7 @@ background: yellow;
 h2 {
     color: red;
     text-align: center;
-    
+    d
 }
 
 
